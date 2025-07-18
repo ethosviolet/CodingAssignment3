@@ -1,0 +1,41 @@
+
+body {background-image: url('/images/Nanaimo_CityView.jpeg'); 
+background-size: cover ;}
+h1 {text-align: center;
+font-family: Oregano;
+font-size: 50px;}
+h1 span{background-color: #ff0000;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;
+}
+h2 {font-family: Oregano;
+font-size: 32px;}
+h2 span {background-color: hsl(0, 0%, 100%);
+border-radius: 25px;
+text-shadow: 2px 2px 4px red;}
+h3 {font-family: Oregano;
+font-size: 24px;}
+h3 span {background-color: red;
+border-radius: 25px;
+text-shadow: 2px 2px 4px white;}
+p {font-family: Didact Gothic;}
+figure {display: table}
+figcaption {font-family: Didact Gothic;
+background-color: rgba(255, 255, 255, 0.75);
+display: table-caption;
+caption-side: bottom;}
+ul {font-family: Didact Gothic;}
+#ingredients {background-color: rgba(255, 255, 255, 0.75);
+display: inline-block; 
+border-radius: 30px;}
+li {font-family: Didact Gothic;}
+li span {background-color:#ffff00ca;
+border-radius: 5px;}
+ol {font-family: Didact Gothic;}
+hr
+.bold {font-family: Didact Gothic Bold;}
+input {font-family: Didact Gothic;}
+fieldset{background-color: rgba(255, 255, 255, 0.75);}
+legend {font-family: Didact Gothic;
+background-color: #ffff00ca;
+display: inline-block;}
