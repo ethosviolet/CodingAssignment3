@@ -19,11 +19,14 @@ h3 span {background-color: red;
 border-radius: 25px;
 text-shadow: 2px 2px 4px white;}
 p {font-family: Didact Gothic;}
-figure {display: table}
+figure {display: block; }
+#img-div {text-align: center;}
+#image-caption {text-align: center;}
 figcaption {font-family: Didact Gothic;
 background-color: rgba(255, 255, 255, 0.75);
-display: table-caption;
-caption-side: bottom;}
+text-align: center;
+margin-left: auto;
+margin-right: auto;}
 ul {font-family: Didact Gothic;}
 #ingredients {background-color: rgba(255, 255, 255, 0.75);
 display: inline-block; 
@@ -39,3 +42,25 @@ fieldset{background-color: rgba(255, 255, 255, 0.75);}
 legend {font-family: Didact Gothic;
 background-color: #ffff00ca;
 display: inline-block;}
+#header {display: flex;
+flex-direction: column;
+align-items:center;}
+.grid-item1 {border-radius: 5px;
+padding: 10px;
+grid-area: topleft;}
+.grid-item2 {border-radius: 5px;
+padding: 10px;
+grid-area: topright;}
+.grid-item3 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomleft;}
+.grid-item4 {border-radius: 5px;
+padding: 10px;
+grid-area: bottomright;
+place-self: center;}
+.container {display: grid;
+gap: 1.5rem;
+padding-left: 50px;
+padding-right: 50px;
+grid-template-areas: "topleft topright"
+"bottomleft bottomright";}
